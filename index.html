@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body onload="onLoadHandler()">
+    <div id="main-container">
+        <div class="header">
+            <h1>NewsAPI</h1>
+            <h1 class="box"></h1>
+            <h1>Org</h1>
+        </div>
+        <div class="line">
+            <hr>
+            <hr>
+        </div>
+        <div class="button">
+            <div class="btn">
+                <input type="text" id="search" class="input-bar" placeholder="Search...">
+                <button onclick="onSearch()">Go</button>
+            </div>
+        </div>
+        <section>
+            <h1 id="mainTitle">TOP NEWS FROM INDIA</h1>
+            <br>
+            <div class="grid-container" id="article-container"></div>
+        </section>
+    </div>
+</body>
+
+</html>
